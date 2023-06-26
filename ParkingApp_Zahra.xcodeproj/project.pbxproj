@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A41D8F72A465DA300F442C8 /* ParkingApp_ZahraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D8F62A465DA300F442C8 /* ParkingApp_ZahraApp.swift */; };
+		5A41D8FB2A465DA500F442C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A41D8FA2A465DA500F442C8 /* Assets.xcassets */; };
+		5A41D8FE2A465DA500F442C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A41D8FD2A465DA500F442C8 /* Preview Assets.xcassets */; };
+		5A41D9082A465DF600F442C8 /* FirestoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9072A465DF600F442C8 /* FirestoreController.swift */; };
+		5A41D90A2A465E1300F442C8 /* FireAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9092A465E1300F442C8 /* FireAuthController.swift */; };
+		5A41D90C2A465E3500F442C8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D90B2A465E3500F442C8 /* UserProfile.swift */; };
+		5A41D90E2A465E7200F442C8 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D90D2A465E7200F442C8 /* Parking.swift */; };
+		5A41D9102A465EE700F442C8 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D90F2A465EE700F442C8 /* UserProfileView.swift */; };
+		5A41D9132A465F0500F442C8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9122A465F0500F442C8 /* SignUpView.swift */; };
+		5A41D9152A465F2000F442C8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9142A465F2000F442C8 /* SignInView.swift */; };
+		5A41D9172A465F3800F442C8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9162A465F3800F442C8 /* RootView.swift */; };
+		5A41D9192A465F4D00F442C8 /* NewParkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D9182A465F4D00F442C8 /* NewParkingView.swift */; };
+		5A41D91B2A465F6100F442C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D91A2A465F6100F442C8 /* HomeView.swift */; };
+		5A41D91D2A465F7600F442C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D91C2A465F7600F442C8 /* DetailView.swift */; };
+		5A41D91F2A465F8900F442C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41D91E2A465F8900F442C8 /* ContentView.swift */; };
+		5A41D9212A46615300F442C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A41D9202A46615300F442C8 /* GoogleService-Info.plist */; };
+		5A41D9242A46628A00F442C8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5A41D9232A46628A00F442C8 /* FirebaseAuth */; };
+		5A41D9262A46628A00F442C8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5A41D9252A46628A00F442C8 /* FirebaseDatabase */; };
+		5A41D9282A46628A00F442C8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5A41D9272A46628A00F442C8 /* FirebaseFirestore */; };
+		5A41D92A2A46628A00F442C8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A41D9292A46628A00F442C8 /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A41D8F32A465DA300F442C8 /* ParkingApp_Zahra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingApp_Zahra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A41D8F62A465DA300F442C8 /* ParkingApp_ZahraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingApp_ZahraApp.swift; sourceTree = "<group>"; };
+		5A41D8FA2A465DA500F442C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A41D8FD2A465DA500F442C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A41D9072A465DF600F442C8 /* FirestoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreController.swift; sourceTree = "<group>"; };
+		5A41D9092A465E1300F442C8 /* FireAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireAuthController.swift; sourceTree = "<group>"; };
+		5A41D90B2A465E3500F442C8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		5A41D90D2A465E7200F442C8 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		5A41D90F2A465EE700F442C8 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		5A41D9122A465F0500F442C8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5A41D9142A465F2000F442C8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5A41D9162A465F3800F442C8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5A41D9182A465F4D00F442C8 /* NewParkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewParkingView.swift; sourceTree = "<group>"; };
+		5A41D91A2A465F6100F442C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A41D91C2A465F7600F442C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5A41D91E2A465F8900F442C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A41D9202A46615300F442C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A41D8F02A465DA300F442C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41D9262A46628A00F442C8 /* FirebaseDatabase in Frameworks */,
+				5A41D9242A46628A00F442C8 /* FirebaseAuth in Frameworks */,
+				5A41D9282A46628A00F442C8 /* FirebaseFirestore in Frameworks */,
+				5A41D92A2A46628A00F442C8 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A41D8EA2A465DA300F442C8 = {
+			isa = PBXGroup;
+			children = (
+				5A41D8F52A465DA300F442C8 /* ParkingApp_Zahra */,
+				5A41D8F42A465DA300F442C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A41D8F42A465DA300F442C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D8F32A465DA300F442C8 /* ParkingApp_Zahra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A41D8F52A465DA300F442C8 /* ParkingApp_Zahra */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D9062A465DCF00F442C8 /* View */,
+				5A41D9052A465DC900F442C8 /* Model */,
+				5A41D9042A465DBE00F442C8 /* Controller */,
+				5A41D8F62A465DA300F442C8 /* ParkingApp_ZahraApp.swift */,
+				5A41D8FA2A465DA500F442C8 /* Assets.xcassets */,
+				5A41D8FC2A465DA500F442C8 /* Preview Content */,
+			);
+			path = ParkingApp_Zahra;
+			sourceTree = "<group>";
+		};
+		5A41D8FC2A465DA500F442C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D8FD2A465DA500F442C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A41D9042A465DBE00F442C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D9072A465DF600F442C8 /* FirestoreController.swift */,
+				5A41D9092A465E1300F442C8 /* FireAuthController.swift */,
+				5A41D9202A46615300F442C8 /* GoogleService-Info.plist */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A41D9052A465DC900F442C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D90B2A465E3500F442C8 /* UserProfile.swift */,
+				5A41D90D2A465E7200F442C8 /* Parking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A41D9062A465DCF00F442C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A41D90F2A465EE700F442C8 /* UserProfileView.swift */,
+				5A41D9122A465F0500F442C8 /* SignUpView.swift */,
+				5A41D9142A465F2000F442C8 /* SignInView.swift */,
+				5A41D9162A465F3800F442C8 /* RootView.swift */,
+				5A41D9182A465F4D00F442C8 /* NewParkingView.swift */,
+				5A41D91A2A465F6100F442C8 /* HomeView.swift */,
+				5A41D91C2A465F7600F442C8 /* DetailView.swift */,
+				5A41D91E2A465F8900F442C8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A41D8F22A465DA300F442C8 /* ParkingApp_Zahra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A41D9012A465DA500F442C8 /* Build configuration list for PBXNativeTarget "ParkingApp_Zahra" */;
+			buildPhases = (
+				5A41D8EF2A465DA300F442C8 /* Sources */,
+				5A41D8F02A465DA300F442C8 /* Frameworks */,
+				5A41D8F12A465DA300F442C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingApp_Zahra;
+			packageProductDependencies = (
+				5A41D9232A46628A00F442C8 /* FirebaseAuth */,
+				5A41D9252A46628A00F442C8 /* FirebaseDatabase */,
+				5A41D9272A46628A00F442C8 /* FirebaseFirestore */,
+				5A41D9292A46628A00F442C8 /* FirebaseFirestoreSwift */,
+			);
+			productName = ParkingApp_Zahra;
+			productReference = 5A41D8F32A465DA300F442C8 /* ParkingApp_Zahra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A41D8EB2A465DA300F442C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5A41D8F22A465DA300F442C8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A41D8EE2A465DA300F442C8 /* Build configuration list for PBXProject "ParkingApp_Zahra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A41D8EA2A465DA300F442C8;
+			packageReferences = (
+				5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5A41D8F42A465DA300F442C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A41D8F22A465DA300F442C8 /* ParkingApp_Zahra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A41D8F12A465DA300F442C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41D8FE2A465DA500F442C8 /* Preview Assets.xcassets in Resources */,
+				5A41D8FB2A465DA500F442C8 /* Assets.xcassets in Resources */,
+				5A41D9212A46615300F442C8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A41D8EF2A465DA300F442C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41D9152A465F2000F442C8 /* SignInView.swift in Sources */,
+				5A41D9102A465EE700F442C8 /* UserProfileView.swift in Sources */,
+				5A41D91F2A465F8900F442C8 /* ContentView.swift in Sources */,
+				5A41D9082A465DF600F442C8 /* FirestoreController.swift in Sources */,
+				5A41D9172A465F3800F442C8 /* RootView.swift in Sources */,
+				5A41D90C2A465E3500F442C8 /* UserProfile.swift in Sources */,
+				5A41D9132A465F0500F442C8 /* SignUpView.swift in Sources */,
+				5A41D91D2A465F7600F442C8 /* DetailView.swift in Sources */,
+				5A41D8F72A465DA300F442C8 /* ParkingApp_ZahraApp.swift in Sources */,
+				5A41D9192A465F4D00F442C8 /* NewParkingView.swift in Sources */,
+				5A41D91B2A465F6100F442C8 /* HomeView.swift in Sources */,
+				5A41D90E2A465E7200F442C8 /* Parking.swift in Sources */,
+				5A41D90A2A465E1300F442C8 /* FireAuthController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A41D8FF2A465DA500F442C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A41D9002A465DA500F442C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A41D9022A465DA500F442C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkingApp_Zahra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GBC.ParkingApp-Zahra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A41D9032A465DA500F442C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkingApp_Zahra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GBC.ParkingApp-Zahra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A41D8EE2A465DA300F442C8 /* Build configuration list for PBXProject "ParkingApp_Zahra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A41D8FF2A465DA500F442C8 /* Debug */,
+				5A41D9002A465DA500F442C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A41D9012A465DA500F442C8 /* Build configuration list for PBXNativeTarget "ParkingApp_Zahra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A41D9022A465DA500F442C8 /* Debug */,
+				5A41D9032A465DA500F442C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A41D9232A46628A00F442C8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5A41D9252A46628A00F442C8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5A41D9272A46628A00F442C8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5A41D9292A46628A00F442C8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A41D9222A46628A00F442C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A41D8EB2A465DA300F442C8 /* Project object */;
+}
